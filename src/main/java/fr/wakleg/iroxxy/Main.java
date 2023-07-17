@@ -1,5 +1,6 @@
 package fr.wakleg.iroxxy;
 
+import fr.wakleg.iroxxy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
