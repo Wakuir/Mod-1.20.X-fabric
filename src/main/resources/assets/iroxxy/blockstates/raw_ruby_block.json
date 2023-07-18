@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model": "iroxxy:block/raw_ruby_block"
+    }
+  }
+}

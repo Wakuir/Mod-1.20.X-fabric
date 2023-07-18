@@ -1,5 +1,7 @@
 package fr.wakleg.iroxxy;
 
+import fr.wakleg.iroxxy.block.ModBlocks;
+import fr.wakleg.iroxxy.item.ModItemGroups;
 import fr.wakleg.iroxxy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,9 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
