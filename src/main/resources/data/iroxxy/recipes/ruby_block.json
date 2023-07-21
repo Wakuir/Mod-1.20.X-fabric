@@ -1,17 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "iroxxy:ruby"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
   "result": {
     "item": "iroxxy:ruby_block"
-  }
+  },
+  "show_notification": true
 }
